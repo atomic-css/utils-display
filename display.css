@@ -23,9 +23,14 @@
 }
 
 .u-flex {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
   display: flex !important;
 }
 
 .u-inlineFlex {
+  display: -webkit-inline-flex !important;
+  display: -ms-inline-flexbox !important;
   display: inline-flex !important;
 }
